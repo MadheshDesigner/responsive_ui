@@ -26,7 +26,7 @@ class ProgramTypeMetrics extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Header
+          
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -87,8 +87,6 @@ class ProgramTypeMetrics extends StatelessWidget {
           const SizedBox(height: 10),
           const Divider(color: Color(0xffD9D9D9)),
           const SizedBox(height: 15),
-
-          // Donut Chart
           Center(
             child: SizedBox(
               height: 265,
